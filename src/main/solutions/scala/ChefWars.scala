@@ -1,4 +1,4 @@
-package competitions.solutions
+package solutions.scala
 
 import scala.collection.mutable
 import scala.collection.mutable.ListBuffer

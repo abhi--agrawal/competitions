@@ -2,6 +2,7 @@ package solutions
 
 import org.junit.jupiter.api.Assertions._
 import org.junit.jupiter.api.Test
+import solutions.scala.{MaxChannels, TimePair}
 
 class MaxChannelsTest  {
 

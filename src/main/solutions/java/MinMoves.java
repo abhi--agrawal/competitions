@@ -1,4 +1,6 @@
-package competitions.solutions;
+package solutions.java;
+
+import java.util.Arrays;
 
 import static java.lang.System.*;
 
@@ -14,7 +16,7 @@ import static java.lang.System.*;
 public class MinMoves {
 
     public static void main(String args[]){
-        System.out.println(minMoves2({1,2,3}));
+        System.out.println(minMoves2(new int[]{1,2,3}));
     }
 
     public static int minMoves2(int[] nums) {

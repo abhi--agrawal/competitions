@@ -1,4 +1,4 @@
-package competitions.solutions;
+package solutions.java;
 
 import static java.lang.System.*;
 
