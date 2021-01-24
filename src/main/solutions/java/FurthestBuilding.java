@@ -31,7 +31,8 @@ public class FurthestBuilding {
         public static int furthestBuilding(int[] heights, int bricks, int ladders) {
             //Ideally we should use ladders for the longest gaps bricks for remaining
             //We can have a ladder min heap based on no of ladders we have, and that would provide us with the smallest one
-            //Which has to be covered with bricks if we continue to move forward, or we can do that with a insertion sort or         //priority queue
+            //Which has to be covered with bricks if we continue to move forward, or we can do that with a insertion sort or
+            // priority queue
             PriorityQueue<Integer> q = new PriorityQueue<Integer>();
             int remainingBricks = bricks;
             if(heights.length == 1)
